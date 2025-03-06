@@ -54,10 +54,11 @@
     // },
   ],
   "logo": {
-    "source": "~/Pictures/Logo/Linux_Mint_logo_without_wordmark.svg.png",
-    "height": 7,
+    "source": "/home/tfkhdyt/Pictures/Logo/icons8-linux-mint-480.png",
+    "height": 9,
     "padding": {
-      "left": 3,
+      "right": 0,
+      "left": 2,
     },
   },
 }
