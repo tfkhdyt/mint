@@ -14,8 +14,12 @@ if status is-interactive
     set -gx EDITOR nvim
     set -gx PNPM_HOME "$HOME/.local/share/pnpm"
     set -gx BUN_INSTALL "$HOME/.bun"
+    set -gx ANDROID_HOME "$HOME/Android"
+    set -gx JAVA_HOME "$(dirname $(dirname $(readlink -f $(which java))))"
 
-    fish_add_path -a "$GOPATH/bin" "$HOME/.cargo/bin" "$BUN_INSTALL/bin" "$PNPM_HOME"
+    fish_add_path -a "$GOPATH/bin" "$HOME/.cargo/bin" "$BUN_INSTALL/bin" "$PNPM_HOME" \
+        "$JAVA_HOME/bin" "$ANDROID_HOME/cmdline-tools/latest/bin" "$ANDROID_HOME/platform-tools" \
+        "$ANDROID_HOME/emulator"
 
     starship init fish | source
     enable_transience
