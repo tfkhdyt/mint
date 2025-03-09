@@ -1,0 +1,8 @@
+[Unit]
+Description=Set X11 Key Repeat Rate
+
+[Service]
+Type=oneshot
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=%h/.Xauthority
+ExecStart=/usr/bin/xset r rate 250 40

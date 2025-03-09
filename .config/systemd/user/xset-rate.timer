@@ -1,0 +1,10 @@
+[Unit]
+Description=Run xset rate hourly
+
+[Timer]
+OnCalendar=hourly
+Persistent=true
+Unit=xset-rate.service
+
+[Install]
+WantedBy=timers.target

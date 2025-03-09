@@ -1,0 +1,7 @@
+[Unit]
+Description=Backup KeePassXC to Git
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/home/tfkhdyt/.local/bin/backup_keepass_git.sh

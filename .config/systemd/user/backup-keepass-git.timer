@@ -1,0 +1,9 @@
+[Unit]
+Description=Run backup KeePassXC script once per day
+
+[Timer]
+OnCalendar=daily
+Persistent=true
+
+[Install]
+WantedBy=timers.target
