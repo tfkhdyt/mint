@@ -19,7 +19,7 @@ if status is-interactive
 
     fish_add_path -a "$GOPATH/bin" "$HOME/.cargo/bin" "$BUN_INSTALL/bin" "$PNPM_HOME" \
         "$JAVA_HOME/bin" "$ANDROID_HOME/cmdline-tools/latest/bin" "$ANDROID_HOME/platform-tools" \
-        "$ANDROID_HOME/emulator"
+        "$ANDROID_HOME/emulator" "$HOME/.local/share/bob/nvim-bin"
 
     starship init fish | source
     enable_transience
