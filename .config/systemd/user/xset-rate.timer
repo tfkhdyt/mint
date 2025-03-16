@@ -2,7 +2,7 @@
 Description=Run xset rate hourly
 
 [Timer]
-OnBootSec=0
+OnActiveSec=0
 OnUnitActiveSec=1h
 Persistent=true
 Unit=xset-rate.service
