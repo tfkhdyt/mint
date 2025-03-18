@@ -4,5 +4,4 @@ After=graphical-session.target
 
 [Service]
 Type=oneshot
-Environment=DISPLAY=:0
-ExecStart=/usr/bin/xset r rate 250 40
+ExecStart=/usr/bin/xset r rate 275 23
