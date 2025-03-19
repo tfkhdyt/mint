@@ -22,7 +22,5 @@ if status is-interactive
         "$ANDROID_HOME/emulator" "$HOME/.local/share/bob/nvim-bin"
 
     starship init fish | source
-    enable_transience
-
     zoxide init fish | source
 end
