@@ -2,14 +2,10 @@ groups:
   - name: games
     items:
       - FL 2025
-      # - Marvel Rivals
       # - Watch Dogs 2
       - Blood Strike
-      # - Balatro
+      - Balatro
       # - Stumble Guys
       - Wrestling Empire
       # - Roblox
-      # - Left 4 Dead 2
-      # - Asphalt Legends Unite
-      - CS2
 default_group: games
