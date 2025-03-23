@@ -11,7 +11,7 @@ if status is-interactive
 
     set -U fish_greeting ""
     set -gx GOPATH "$HOME/go"
-    set -gx EDITOR nvim
+    set -gx EDITOR /home/tfkhdyt/.local/share/bob/nvim-bin/nvim
     set -gx PNPM_HOME "$HOME/.local/share/pnpm"
     set -gx BUN_INSTALL "$HOME/.bun"
     set -gx ANDROID_HOME "$HOME/Android"
