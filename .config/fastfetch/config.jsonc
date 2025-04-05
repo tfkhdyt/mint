@@ -12,7 +12,6 @@
       "type": "kernel",
       "format": "{release}",
     },
-    // "uptime",
     // "packages",
     // "shell",
     // "display",
@@ -46,6 +45,7 @@
     // "battery",
     // "poweradapter",
     // "locale",
+    "uptime",
     "break",
     "colors",
     // {
