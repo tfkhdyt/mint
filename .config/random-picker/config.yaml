@@ -4,10 +4,12 @@ groups:
       - FL 2025
       # - Watch Dogs 2
       - Blood Strike
-      - Balatro
+      # - Balatro
       # - Stumble Guys
       - Wrestling Empire
       # - Roblox
       - Rise of the Tomb Raider
-      - TETR.IO
+      # - TETR.IO
+      - Zenless Zen Zero
+      - The Sims 4
 default_group: games
