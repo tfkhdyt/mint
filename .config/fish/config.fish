@@ -16,10 +16,11 @@ if status is-interactive
     set -gx BUN_INSTALL "$HOME/.bun"
     set -gx ANDROID_HOME "$HOME/Android"
     set -gx JAVA_HOME "$(dirname $(dirname $(readlink -f $(which java))))"
+    set -gx VOLTA_HOME "$HOME/.volta"
 
-    fish_add_path -a "$GOPATH/bin" "$HOME/.cargo/bin" "$BUN_INSTALL/bin" "$PNPM_HOME" \
+    fish_add_path -a "$GOPATH/bin" "$HOME/.cargo/bin" "$BUN_INSTALL/bin" \
         "$JAVA_HOME/bin" "$ANDROID_HOME/cmdline-tools/latest/bin" "$ANDROID_HOME/platform-tools" \
-        "$ANDROID_HOME/emulator" "$HOME/.local/share/bob/nvim-bin"
+        "$ANDROID_HOME/emulator" "$HOME/.local/share/bob/nvim-bin" "$VOLTA_HOME/bin"
 
     starship init fish | source
     zoxide init fish | source
