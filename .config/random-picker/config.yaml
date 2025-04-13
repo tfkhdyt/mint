@@ -7,9 +7,10 @@ groups:
       # - Balatro
       # - Wrestling Empire
       # - Roblox
-      - Zenless Zen Zero
+      # - Zenless Zen Zero
       # - The Sims 4
       - WWE 2K14
-      - Inside
+      # - Inside
       - Fall Guys
+      - Ghostrunner
 default_group: games
