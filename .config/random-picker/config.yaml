@@ -1,7 +1,7 @@
 groups:
   - name: games
     items:
-      - FL 2025
+      - eFootball
       # - Watch Dogs 2
       - Blood Strike
       # - Balatro
@@ -9,7 +9,7 @@ groups:
       # - Roblox
       # - Zenless Zen Zero
       # - The Sims 4
-      - WWE 2K14
+      # - WWE 2K14
       # - Inside
       - Fall Guys
       - Ghostrunner
