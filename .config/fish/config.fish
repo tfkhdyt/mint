@@ -22,6 +22,10 @@ if status is-interactive
         "$JAVA_HOME/bin" "$ANDROID_HOME/cmdline-tools/latest/bin" "$ANDROID_HOME/platform-tools" \
         "$ANDROID_HOME/emulator" "$HOME/.local/share/bob/nvim-bin" "$VOLTA_HOME/bin"
 
+    function cursor
+        /home/tfkhdyt/Applications/Cursor-0.48.8-x86_64_92f79d3f09a90a9c3b62383539a52f74.AppImage $argv
+    end
+
     starship init fish | source
     zoxide init fish | source
 end
