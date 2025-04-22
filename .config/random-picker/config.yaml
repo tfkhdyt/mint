@@ -5,12 +5,9 @@ groups:
       # - Watch Dogs 2
       - Blood Strike
       # - Balatro
-      # - Wrestling Empire
+      - Wrestling Empire
       # - Roblox
-      # - Zenless Zen Zero
-      # - The Sims 4
       # - WWE 2K14
-      # - Inside
       - Fall Guys
       - Ghostrunner
 default_group: games
