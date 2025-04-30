@@ -7,7 +7,6 @@ groups:
       # - Balatro
       - Wrestling Empire
       # - Roblox
-      # - WWE 2K14
       - Fall Guys
-      - Ghostrunner
+      # - Ghostrunner
 default_group: games
