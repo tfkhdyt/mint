@@ -2,11 +2,9 @@ groups:
   - name: games
     items:
       - eFootball
-      # - Watch Dogs 2
+      - Watch Dogs 2
       - Blood Strike
-      # - Balatro
       - Wrestling Empire
-      # - Roblox
       - Fall Guys
-      # - Ghostrunner
+      - "Wolfenstein: The New Order"
 default_group: games
