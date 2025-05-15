@@ -1,3 +1,12 @@
+function spf
+    set -gx SPF_LAST_DIR "$HOME/.local/state/superfile/lastdir"
+    command spf $argv
+    if test -f "$SPF_LAST_DIR"
+        source "$SPF_LAST_DIR"
+        rm -f -- "$SPF_LAST_DIR" >/dev/null
+    end
+end
+
 if status is-interactive
     alias ls="eza --icons --group-directories-first"
     alias ll="eza -lbh --icons --group-directories-first"
