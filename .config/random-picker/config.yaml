@@ -2,10 +2,10 @@ groups:
   - name: games
     items:
       - eFootball
-      # - Watch Dogs 2
       - Blood Strike
       - Wrestling Empire
       - Fall Guys
-      - "Wolfenstein: The New Order"
+      # - "Wolfenstein: The New Order"
       - "ETS 2"
+      - Alba
 default_group: games
