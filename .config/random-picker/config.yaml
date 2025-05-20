@@ -8,4 +8,5 @@ groups:
       # - "Wolfenstein: The New Order"
       - "ETS 2"
       - Alba
+      - The Murder of Sonic The Hedgehog
 default_group: games
