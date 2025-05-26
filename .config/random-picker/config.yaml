@@ -5,8 +5,9 @@ groups:
       - Blood Strike
       - Wrestling Empire
       - Fall Guys
-      # - "Wolfenstein: The New Order"
       - "ETS 2"
-      - Alba
-      - The Murder of Sonic The Hedgehog
+      # - Alba
+      # - The Murder of Sonic The Hedgehog
+      - Dying Light
+      - Sludge Life
 default_group: games
