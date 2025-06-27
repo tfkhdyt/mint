@@ -2,11 +2,11 @@ groups:
   - name: games
     items:
       - eFootball
-      - Blood Strike
-      - Wrestling Empire
-      - Fall Guys
+      # - Blood Strike
+      # - Wrestling Empire
+      # - Fall Guys
       - "ETS 2"
       - Dying Light
-      # - Brothers - A Tale of Two Sons
-      - Resident Evil 2
+      - A Space for the unbound
+      - "SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated"
 default_group: games
