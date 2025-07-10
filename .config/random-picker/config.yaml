@@ -6,9 +6,10 @@ groups:
       # - Wrestling Empire
       # - Fall Guys
       - "ETS 2"
-      - Dying Light
+      # - Dying Light
       - A Space for the unbound
       - "SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated"
       - "A Plague Tale: Innocence"
       - Sifu
+      - "Crash Bandicoot™ N. Sane Trilogy"
 default_group: games
