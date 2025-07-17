@@ -1,15 +1,15 @@
 groups:
   - name: games
     items:
-      - eFootball
-      # - Blood Strike
-      # - Wrestling Empire
-      # - Fall Guys
-      - "ETS 2"
-      # - Dying Light
       - A Space for the unbound
       - "SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated"
       - "A Plague Tale: Innocence"
-      - Sifu
       - "Crash Bandicoot™ N. Sane Trilogy"
+      - "The Operator"
+      # - Blood Strike
+      - eFootball
+      - "Hell Let Loose"
+      # - Wrestling Empire
+      # - "ETS 2"
+      # - Sifu
 default_group: games
