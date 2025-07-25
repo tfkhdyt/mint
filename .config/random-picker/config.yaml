@@ -1,15 +1,14 @@
+default_group: games
 groups:
   - name: games
     items:
-      - A Space for the unbound
       - "SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated"
-      - "A Plague Tale: Innocence"
       - "Crash Bandicoot™ N. Sane Trilogy"
-      - "The Operator"
+      - "Marvel's Guardians of the Galaxy"
+      - "DEATH STRANDING"
       # - Blood Strike
       - eFootball
       - "Hell Let Loose"
+      - "F1 2018"
       # - Wrestling Empire
       # - "ETS 2"
-      # - Sifu
-default_group: games
