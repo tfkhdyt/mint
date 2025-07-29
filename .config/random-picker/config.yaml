@@ -2,7 +2,6 @@ default_group: games
 groups:
   - name: games
     items:
-      - "SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated"
       - "Crash Bandicoot™ N. Sane Trilogy"
       - "Marvel's Guardians of the Galaxy"
       - "DEATH STRANDING"
