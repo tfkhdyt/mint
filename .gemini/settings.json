@@ -1,4 +1,5 @@
 {
   "selectedAuthType": "oauth-personal",
-  "theme": "Default"
+  "theme": "Default",
+  "preferredEditor": "neovim"
 }
