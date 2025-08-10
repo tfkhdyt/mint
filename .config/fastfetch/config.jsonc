@@ -39,6 +39,8 @@
       "format": "{name} - {temperature}",
     },
     "memory",
+    "theme",
+    "icons",
     // "swap",
     // "disk",
     // "localip",
@@ -53,12 +55,12 @@
     //   "location": "Manggahang",
     // },
   ],
-  "logo": {
-    "source": "/home/tfkhdyt/Pictures/Joker.webp",
-    "height": 9,
-    "padding": {
-      "right": 2,
-      "left": 2,
-    },
-  },
+  // "logo": {
+  //   "source": "/home/tfkhdyt/Pictures/Joker.webp",
+  //   "height": 6,
+  //   "padding": {
+  //     "right": 2,
+  //     "left": 2,
+  //   },
+  // },
 }
